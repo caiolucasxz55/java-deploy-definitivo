@@ -43,10 +43,6 @@ public class UserController {
     public User login(@RequestBody User loginRequest) {
         return service.login(loginRequest.getEmail(), loginRequest.getPassword());
     }
-    @GetMapping
-    public List<User> listarTodos() {
-        return service.listarTodos();
-    }
 
 
 
