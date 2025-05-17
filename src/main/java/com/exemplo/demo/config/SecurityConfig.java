@@ -1,4 +1,4 @@
-package com.exemplo.demo.config; // ajuste conforme seu pacote real
+package com.exemplo.demo.config; 
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
