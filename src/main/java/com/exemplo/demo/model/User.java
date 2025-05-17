@@ -21,5 +21,5 @@ public class User {
     private String password;
 
     @Column(nullable = false)
-    private String name; // novo campo para integrar com o front
+    private String name; 
 }
