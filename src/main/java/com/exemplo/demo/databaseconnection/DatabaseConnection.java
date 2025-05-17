@@ -12,7 +12,7 @@ public class DatabaseConnection {
 
     static {
         try {
-            // Registrar o driver JDBC Oracle (necessário em algumas versões do Java)
+            
             Class.forName("oracle.jdbc.driver.OracleDriver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
